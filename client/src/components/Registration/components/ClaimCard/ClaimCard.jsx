@@ -21,9 +21,27 @@ const ClaimCard = ({
 }) => (
     <ThemeProvider>
         <Card titleHidden>
-            <Container padding={20}>
+            <Container padding={5}>
                 <SubHeading fontSize={18} weight={500}>
                     {name}
+                </SubHeading> 
+            </Container>
+            <Container padding={5}>
+                <SubHeading fontSize={18} weight={500}>
+                    {address}
+                </SubHeading> 
+            </Container>
+            <Container padding={5}>
+                <SubHeading fontSize={18} weight={500}>
+                    <Label>Tax ID/Charity ID: 
+                    {taxId}
+                    </Label>
+                </SubHeading>
+            </Container>
+            <Container padding={5}>
+                <SubHeading fontSize={18} weight={500}>
+                <Label>Type: </Label>
+                    {type}
                 </SubHeading> 
             </Container>
         </Card>

@@ -1,25 +1,26 @@
 import React, {useEffect, useState} from 'react';
-import { registeredOrg } from '../../MockData/OrganizationInfo';
+import { orgs } from '../../MockData/OrganizationInfo';
 import Registration from './Registration';
 
-const RegistrationRenderer = ({orgId = 0}) => {
+const RegistrationRenderer = ({orgId = 448}) => {
     const [renderLoading, setRenderLoading] = useState(true);
     const [orgInfo, setOrgInfo] = useState(null);
-    const getOrg = () => new Promise((resolve, reject) => {
-      if (!registeredOrg) {
+    const getRegisteredOrg = () => new Promise((resolve, reject) => {
+      if (!orgs ) {
         return setTimeout(
           () => reject(new Error('registeredOrg not found')),
           250
         );
       }
   
-      setTimeout(() => resolve(registeredOrg), 2500);
+      setTimeout(() => resolve(orgs), 2500);
     });
     
     const doGetORG = async () => {
         try {
-          await getOrg().then((result) => {
-            setOrgInfo(result);
+          await getRegisteredOrg().then((result) => {
+              console.warn(orgId)
+            setOrgInfo(result.find((val) => val.id === orgId));
             setRenderLoading(false);
           });
         } catch (error) {

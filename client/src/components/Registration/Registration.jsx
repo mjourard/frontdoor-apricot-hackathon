@@ -1,5 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import LoadingSpinner from '../Generics/LoadingSpinner';
 
-const Registration = () => (<div>Registration!</div>);
+const Registration = () => {
+    const [showSpinner, setShowSpinner] = useState(true);
+
+    useEffect(() => {
+        setTimeout(setShowSpinner(false), 2000)
+    }, [])
+
+    return (
+        <div>
+        {showSpinner ? <LoadingSpinner /> : <div>Registration!</div>}
+        </div>
+    )
+};
 
 export default Registration;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Registration from './components/Registration/Registration';
+import Registration from './components/Registration/Registration.renderer';
 
 const Routes = () => (
       <BrowserRouter basename=''>

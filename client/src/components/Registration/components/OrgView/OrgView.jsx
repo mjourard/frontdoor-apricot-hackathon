@@ -48,8 +48,11 @@ const OrgView = ({
                         </styles.OrgDetailsContent>
                     </styles.CardContent>
                 </styles.CardContainer>
+                <div style={{ paddingBottom: '15px'}} />
                 <Payments />
+                <div style={{ paddingBottom: '15px'}} />
                 <DonorCard />
+                <div style={{ paddingBottom: '15px'}} />
             </styles.ViewContainer>
         </ThemeProvider>
     );

@@ -39,6 +39,7 @@ const LetterLineBold = styled.span`
 
 const InfoDiv = styled.div`
     margin: 0 40px;
+    padding-bottom: 10px;
 `;
 
 const UnclaimedDiv = styled.div`

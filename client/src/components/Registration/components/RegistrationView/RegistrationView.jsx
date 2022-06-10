@@ -11,7 +11,7 @@ import {
   ThemeProvider,
 } from '@social-solutions/component-library';
 
-import styles from './ClaimCard.styles';
+import styles from './RegistrationView.style';
 
 const ClaimCard = ({
     name,

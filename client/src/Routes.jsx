@@ -6,7 +6,7 @@ import { orgId } from './helpers/integration/integrationProps';
 const Routes = () => (
       <BrowserRouter basename=''>
         <Switch>
-            <Route exact path='/' component={() => (<Registration orgId={orgId || 448}/>)} />
+            <Route exact path='/' component={() => (<Registration orgId={orgId || 3223}/>)} />
         </Switch>
       </BrowserRouter>
   );

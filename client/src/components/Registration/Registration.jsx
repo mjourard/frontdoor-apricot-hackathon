@@ -1,6 +1,7 @@
 import React from 'react';
 import LoadingSpinner from '../Generics/LoadingSpinner';
-import ClaimCard from './components/ClaimCard/ClaimCard';
+import RegistrationView from './components/RegistrationView/RegistrationView';
+import OrgView from './components/OrgView/OrgView';
 
 const Registration = ({orgInfo, isLoading}) => {
     const {
@@ -8,13 +9,20 @@ const Registration = ({orgInfo, isLoading}) => {
         address = '',
         taxId = -1,
         type = '',
+        isRegistered = null,
+
     } = orgInfo || {};
     console.warn(orgInfo);
+    if (isLoading || isRegistered === null) {
+        return (
+            <LoadingSpinner />
+        )
+    };
     return (
         <div>
-            {isLoading ?
-                <LoadingSpinner /> :
-                <ClaimCard name={name} address={address} taxId={taxId} type={type} />
+            {isRegistered ?
+                <OrgView /> :
+                <RegistrationView name={name} address={address} taxId={taxId} type={type} />
             }
         </div>
     )

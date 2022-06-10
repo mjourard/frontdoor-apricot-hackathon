@@ -7,6 +7,7 @@ import {
     Text,
     USAddressInputs,
 } from '@social-solutions/component-library';
+import DonorCard from './components/DonorCard/DonorCard';
 import styles from './OrgView.style';
 
 const OrgView = ({
@@ -46,6 +47,7 @@ const OrgView = ({
                         </styles.OrgDetailsContent>
                     </styles.CardContent>
                 </styles.CardContainer>
+                <DonorCard />
             </styles.ViewContainer>
         </ThemeProvider>
     );

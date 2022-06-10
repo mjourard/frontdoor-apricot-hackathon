@@ -15,7 +15,8 @@ const CardContainer = styled.div`
 `;
 
 const CardTitle = styled.div`
-    background-color: #20907f;
+    // background-color: #20907f;
+    background-color: #003d50;
     font-size: 22px;
     padding: 1em;
     color: #fafafa;
@@ -30,23 +31,15 @@ const CardContent = styled.div`
     padding: 2rem;
 `;
 
-const OrgDetailsContent = styled.div`
-    display: flex;
-    align-items: stretch;
-    justify-content: flex-start;
-    padding: 0.5rem;
-`
-
 const ContentBlock = styled.div`
     width: 100%;
     height: 100%;
-`
+`;
 
 export default {
     CardContainer,
     CardContent,
     CardTitle,
     ContentBlock,
-    OrgDetailsContent,
     ViewContainer
 };

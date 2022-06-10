@@ -8,6 +8,7 @@ import {
     USAddressInputs,
 } from '@social-solutions/component-library';
 import styles from './OrgView.style';
+import Payments from './components/Payments/Payments'
 
 const OrgView = ({
     legalName,
@@ -46,6 +47,7 @@ const OrgView = ({
                         </styles.OrgDetailsContent>
                     </styles.CardContent>
                 </styles.CardContainer>
+                <Payments />
             </styles.ViewContainer>
         </ThemeProvider>
     );

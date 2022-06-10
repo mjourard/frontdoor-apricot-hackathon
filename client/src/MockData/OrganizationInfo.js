@@ -13,6 +13,6 @@ export const orgs = [
         address: "Maybe a fake address, tx 12345",
         taxId: 123456788,
         type: "8udf21",
-        isRegistered: false,
+        isRegistered: true,
     }
 ];

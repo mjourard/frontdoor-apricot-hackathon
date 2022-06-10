@@ -15,7 +15,9 @@ const RegistrationInfoCard = () => (
                 <styles.HeaderDiv>
                     <styles.HeadingDiv>
                         <Headline fontSize={22} weight={'bold'}>
-                            Register Information
+                            <styles.Coloring>
+                                Register Information
+                            </styles.Coloring>
                         </Headline>
                     </styles.HeadingDiv>
                     <styles.HeadingDiv>
@@ -25,7 +27,9 @@ const RegistrationInfoCard = () => (
                     </styles.HeadingDiv>
                     <styles.HeadingDiv>
                         <SubHeading fontSize={18} weight={'bold'}>
-                        Please consider using a permanent/primary email when creating this account rather one that is employee-specific - e.g. "arcmatchinggifts@redcross.org" instead of "jane.smith@redcross.org". Emails related to your organization's website are preferred over your personal email - e.g. "jane.smith@redcross.org" instead of "jane.smith@gmail.com".
+                            <styles.Coloring>
+                                Please consider using a permanent/primary email when creating this account rather one that is employee-specific - e.g. "arcmatchinggifts@redcross.org" instead of "jane.smith@redcross.org". Emails related to your organization's website are preferred over your personal email - e.g. "jane.smith@redcross.org" instead of "jane.smith@gmail.com".
+                            </styles.Coloring>
                         </SubHeading>
                     </styles.HeadingDiv>
                 </styles.HeaderDiv>

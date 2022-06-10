@@ -36,7 +36,7 @@ export const LoadingSpinnerRing = styled.div`
   animation: ${spin} 1s ease-in-out infinite;
   border: 10px solid #cccccc;
   border-radius: 50%;
-  border-top: 10px solid lightBlue;
+  border-top: 10px solid #381360;
   height: 50px;
   position: absolute;
   width: 50px;

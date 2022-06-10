@@ -15,7 +15,9 @@ const AddInfoCard = () => (
                 <styles.HeaderDiv>
                     <styles.HeadingDiv>
                         <Headline fontSize={22} weight={'bold'}>
-                            Preferred Organization Information
+                            <styles.Coloring>
+                                Preferred Organization Information
+                            </styles.Coloring>
                         </Headline>
                     </styles.HeadingDiv>
                     <styles.HeadingDiv>

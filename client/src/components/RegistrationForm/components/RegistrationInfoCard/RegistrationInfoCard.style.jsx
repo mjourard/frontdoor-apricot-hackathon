@@ -12,6 +12,10 @@ const HeadingDiv = styled.div`
     padding: 10px 20px;
 `;
 
+const Coloring = styled.div`
+    color: #381360 !important;
+`;
+
 const TextFieldsDiv = styled.div`
     padding: 0 20px 20px;
     max-width: 90%;
@@ -42,6 +46,7 @@ const InputLabel = styled.label`
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
+    Coloring,
     HeaderDiv,
     HeadingDiv,
     TextFieldsDiv,

@@ -20,7 +20,7 @@ const RegistrationRenderer = ({orgId = 448}) => {
         try {
           await getRegisteredOrg().then((result) => {
               console.warn(orgId)
-            setOrgInfo(result.find((val) => val.id === orgId));
+            setOrgInfo(result.find((val) => val.id == orgId));
             setRenderLoading(false);
           });
         } catch (error) {

@@ -7,6 +7,7 @@ const OrgDetailsContent = styled.div`
     padding: 0.5rem;
 `;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     OrgDetailsContent
 };;

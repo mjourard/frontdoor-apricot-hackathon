@@ -42,6 +42,7 @@ const ContentBlock = styled.div`
     height: 100%;
 `
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     CardContainer,
     CardContent,

@@ -9,7 +9,7 @@ import { orgId } from './helpers/integration/integrationProps';
 const Routes = () => (
       <HashRouter basename=''>
         <Switch>
-            <Route exact path='/' component={() => (<Registration orgId={orgId || 3223}/>)} />
+            <Route exact path='/' component={() => (<Registration orgId={orgId || 448}/>)} />
             <Route exact path='/registration-form' component={() => (<RegistrationForm />)} />
             <Route exact path='/submit-thank-you' component={() => (<SubmitThankYou />)} />
         </Switch>

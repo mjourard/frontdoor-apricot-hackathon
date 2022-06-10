@@ -16,7 +16,7 @@ const CardContainer = styled.div`
 
 const CardTitle = styled.div`
     // background-color: #20907f;
-    background-color: #003d50;
+    background-color: #20907f;
     font-size: 22px;
     padding: 1em;
     color: #fafafa;
@@ -36,6 +36,7 @@ const ContentBlock = styled.div`
     height: 100%;
 `;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     CardContainer,
     CardContent,

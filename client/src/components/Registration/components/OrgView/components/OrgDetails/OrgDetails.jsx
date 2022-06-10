@@ -1,11 +1,4 @@
 import React from 'react';
-import {
-    Card,
-    ThemeProvider,
-    Button,
-    Spacer,
-    Text
-} from '@social-solutions/component-library';
 import viewstyles from '../../OrgView.style';
 import detailstyles from './OrgDetails.style';
 import TextDisplay from '../../../../../Generics/TextDisplay';

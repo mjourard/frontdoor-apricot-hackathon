@@ -1,17 +1,9 @@
 import React from 'react';
 import {
-    Card,
     ThemeProvider,
-    Button,
-    Spacer,
-    Text,
-    USAddressInputs,
 } from '@social-solutions/component-library';
-<<<<<<< Updated upstream
 import DonorCard from './components/DonorCard/DonorCard';
-=======
 import OrgDetails from './components/OrgDetails/OrgDetails';
->>>>>>> Stashed changes
 import styles from './OrgView.style';
 import Payments from './components/Payments/Payments'
 

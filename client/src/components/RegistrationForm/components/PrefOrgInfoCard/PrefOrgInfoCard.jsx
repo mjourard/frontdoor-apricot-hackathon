@@ -15,7 +15,9 @@ const PrefOrgInfoCard = () => (
                 <styles.HeaderDiv>
                     <styles.HeadingDiv>
                         <Headline fontSize={22} weight={'bold'}>
-                            Additional Information
+                            <styles.Coloring>
+                                Additional Information
+                            </styles.Coloring>
                         </Headline>
                     </styles.HeadingDiv>
                     <styles.HeadingDiv>

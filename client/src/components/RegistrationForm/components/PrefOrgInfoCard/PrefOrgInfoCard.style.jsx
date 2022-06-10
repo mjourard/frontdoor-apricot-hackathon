@@ -40,8 +40,13 @@ const InputLabel = styled.label`
     padding-top: 7px;
 `;
 
+const Coloring = styled.div`
+    color: #381360 !important;
+`;
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
+    Coloring,
     HeaderDiv,
     HeadingDiv,
     TextFieldsDiv,
